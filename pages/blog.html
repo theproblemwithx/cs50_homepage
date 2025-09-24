@@ -10,34 +10,28 @@
         <title>My Webpage</title>
     </head>
     <body>
-        <header>
-            <nav class="navbar">
-                <hr>
-                <ul>
-                    <li><a class="nav-items" id="home"href="../index.html">Home</a></li>
-                    <li><a class="nav-items" id="about" href="about.html">About</a></li>
-                    <li><a class="nav-items" id="blog" href="blog.html">Blog</a></li>
-                    <li><a class="nav-items" id="projects" href="project.html">Projects</a></li>
-                </ul>
-                <hr>
-            </nav>
-        </header>
-        
-        <div class="container">
             <aside class="left-bar">
                 <h1>
-                    <a href="/index.html">This is Blog</a>
+                    <a href="index.html">This is Blog</a>
                 </h1>
-                <h2>CS50x class</h2>
-                <p>Tacos</p>
+                    <a href="https://cs50.harvard.edu/x/">                <h2>CS50x class</h2></a>
+                <div>
+                <hr>
+                    <ul class="nav-list">
+                        <li><a class="nav-items" id="home"href="../index.html">Home</a></li>
+                        <li><a class="nav-items" id="about" href="../pages/about.html">About</a></li>
+                        <li><a class="nav-items" id="blog" href="../pages/blog.html">Blog</a></li>
+                        <li><a class="nav-items" id="projects" href="../pages/project.html">Projects</a></li>
+                    </ul>
+                <hr>
+                </div>
                 <p>
                     <a href="https://www.paypal.com">
                         Donate for tacos
                     </a>
                 </p>
                 <p>
-                    <a href="../index.html">Carlos X. Xavier</a>
-                    <br>
+                    <a href="index.html">Carlos X. Xavier</a>
                     <br>
                     <a href="mailto:guamas@guamas.edu">guamas@guamas.edu</a>
                     <br><br>
@@ -57,17 +51,16 @@
                         <li>Week 8</li>
                 </ul>
             </aside>
-                
             <main>
                 <h1 id="blog">Blog</h1>
                 <hr>
-                <p>This is a blog, where I'll be posting my thoughts every Sunday until the end of the course.</p>
+                <p>This is a blog where I'll be posting my thoughts every Sunday until the end of the course.</p>
                 <textarea placeholder="Write down your blog and it will be posted below" rows="10" cols="60"></textarea>
                 <!--TODO work on the function. should take the text inside text area when the user submits, and then post it below under a new paragraph.-->
                 <button onclick="submitForm()">Submit</button>
                 <h2>September</h2>
+                <p>Here is where the blog posts will be shown using a Javascript function that responds to the text input above. It should check the date of submission and based on that place it inside of the correct month.</p>
                 <hr>
-                <h3>Post 1</h3>
                 <h2>October</h2>
                 <hr>
                 <h2>November</h2>
