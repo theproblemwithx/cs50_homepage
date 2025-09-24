@@ -98,3 +98,6 @@ body {
     margin: 0;
 }
 
+.container .img-div {
+    width: 80%;
+}
