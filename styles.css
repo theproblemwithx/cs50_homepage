@@ -90,7 +90,8 @@ body {
     padding: 0;
 }
 
-/* without this I am getting two white bars left and right, likely related to bootstrap, need to read the docs */
+/* without this I am getting two white bars left and right, likely related to bootstrap, need to read the docs.
+I realized after starting with css that I could have made many changes just using bootstrap. Will implement these in the final project. */ 
 
 .container {
     max-width: none;
@@ -98,6 +99,3 @@ body {
     margin: 0;
 }
 
-.container .img-div {
-    width: 80%;
-}
